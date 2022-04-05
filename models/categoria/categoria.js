@@ -2,14 +2,10 @@ import mongoose from "mongoose";
 
 const { Schema, model } = mongoose;
 
-// Esquema de la coleccion Pregunta
-const preguntaSchema = new Schema(
+// Esquema de la coleccion Categoria
+const categoriaSchema = new Schema(
   {
-    enunciado: {
-      type: String,
-      required: true,
-    },
-    respuesta: {
+    dificultad: {
       type: String,
       required: true,
     },
@@ -20,6 +16,6 @@ const preguntaSchema = new Schema(
   }
 );
 
-// modelo Pregunta
-const preguntaModel = model("Pregunta", preguntaSchema, "Pregunta");
-export { preguntaModel };
+// modelo Categoria
+const categoriaModel = model("Categoria", categoriaSchema, "Categoria");
+export { categoriaModel };
