@@ -1,6 +1,6 @@
 import { tiposRonda } from "../models/ronda/tipos.js";
 // import { tiposJugador } from "../models/jugador/tipos.js";
-// import { tiposPregunta } from "../models/pregunta/tipos.js";
+import { tiposPregunta } from "../models/pregunta/tipos.js";
 // import { tiposCategoria } from "../models/categoria/tipos.js";
 // import { tiposOpcion } from "../models/opcion/tipos.js";
 // definicion de tipos globales o input globales
@@ -8,7 +8,7 @@ import { tiposRonda } from "../models/ronda/tipos.js";
 export const tipos = [
   tiposRonda,
   // tiposJugador,
-  // tiposPregunta,
+  tiposPregunta,
   // tiposCategoria,
   // tiposOpcion,
 ]; //exporto todos los tipos para ser usuados en toda la aplicacion los guardo en una variable
