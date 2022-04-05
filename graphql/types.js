@@ -1,5 +1,5 @@
 import { tiposRonda } from "../models/ronda/tipos.js";
-// import { tiposJugador } from "../models/jugador/tipos.js";
+import { tiposJugador } from "../models/jugador/tipos.js";
 import { tiposPregunta } from "../models/pregunta/tipos.js";
 import { tiposCategoria } from "../models/categoria/tipos.js";
 import { tiposOpcion } from "../models/opcion/tipos.js";
@@ -7,7 +7,7 @@ import { tiposOpcion } from "../models/opcion/tipos.js";
 
 export const tipos = [
   tiposRonda,
-  // tiposJugador,
+  tiposJugador,
   tiposPregunta,
   tiposCategoria,
   tiposOpcion,
