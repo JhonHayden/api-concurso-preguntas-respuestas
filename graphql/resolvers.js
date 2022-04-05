@@ -1,4 +1,4 @@
-// import { resolversJugador } from "../models/jugador/resolvers.js";
+import { resolversJugador } from "../models/jugador/resolvers.js";
 import { resolversRonda } from "../models/ronda/resolvers.js";
 import { resolversPregunta } from "../models/pregunta/resolvers.js";
 import { resolversCategoria } from "../models/categoria/resolvers.js";
@@ -6,7 +6,7 @@ import { resolversOpcion } from "../models/opcion/resolvers.js";
 
 // resolvers globales para toda la aplicacion
 export const resolvers = [
-  // resolversJugador,
+  resolversJugador,
   resolversPregunta,
   resolversRonda,
   resolversCategoria,
